@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0efa252cee72482e8f0163eb23d1a016" Name="Diagram1">
+        <EntityTypeShape EntityType="LensManagementModel.Section" Width="1.5" PointX="1" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LensManagementModel.User" Width="1.5" PointX="3.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LensManagementModel.Lens" Width="1.5" PointX="3.25" PointY="2.25" />
+        <AssociationConnector Association="LensManagementModel.FK_Lenses_Sections" />
+        <EntityTypeShape EntityType="LensManagementModel.Role" Width="1.5" PointX="1.25" PointY="6.125" />
+        <AssociationConnector Association="LensManagementModel.FK_Users_Roles" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
